@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><h1>My Clothing Store</h1></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="reign">
+        <input type="text" name="q" id="fi-q" placeholder="Search products, brands and categories" aria-label="Search" value="" autocomplete="off" required="">
+        </div>
+        <section id="home">
+            <h1>Welcome to My Clothing Store</h1>
+            <p>Discover the latest trends in fashion.</p>
+        </section>
+
+        <section id="products">
+            <h2>Our Products</h2>
+            <div class="product-list">
+                <div class="product">
+                    <img src="Casual_Shirts_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Trousers_TN.png" alt="Pants">
+                    <h3>Comfortable Pants</h3>
+                    <p>$39.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Formal_Shoes_TN_v2.png" alt="shoe">
+                    <h3>Stylish shoe</h3>
+                    <p>$49.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Dress_Shirts_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Polos_TN (1).png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="T-Shirts_Polos_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Tuxedo_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Slippers_TN.png" alt="slipper">
+                    <h3>Slipper</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Tank_Tops_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Polos_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Underwear_TN.png" alt="Underwear_TN">
+                    <h3>Comfortable Underwear</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Swim_Wear_TN.png" alt="Swim wear">
+                    <h3>Comfortable swim wear</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Tank_Tops_TN.png" alt="Shirt">
+                    <h3>Stylish Shirt</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Boots_TN.png" alt="Shirt">
+                    <h3>Stylish shoe</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Oxfords_Shoes_TN.png" alt="Shirt">
+                    <h3>Stylish shoe</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+                <div class="product">
+                    <img src="Loafers_TN_v2.png" alt="Shirt">
+                    <h3>Stylish shoe</h3>
+                    <p>$29.99</p>
+                    <button class="super">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+    
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are dedicated to providing the best clothing options for our customers. Our mission is to offer stylish and affordable fashion for everyone.</p>
+        </section>
+<div>
+        <section id="contact">
+            <div>
+            <h2>Contact Us</h2>
+            <form action="submit_form.php" method="POST">
+                <h4>Name</h4>
+                <label for="name"></label>
+                <input type="text" id="name" name="name" required>
+                <h4>Email</h4>
+                <label for="email"></label>
+                <input type="email" id="email" name="email" required>
+                <h4>Message</h4>
+                <label for="message"></label>
+                <textarea  name="message" required></textarea>
+                <div class="submit-button-wrapper">
+                <input type="submit" value="Send Message">
+                </div>
+            </form>
+        </div>
+        </section>
+</div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Clothing Store</p>
+        <div class="social-media">
+            <a href="https://web.facebook.com/?_rdc=1&_rdr" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/?hl=en" target="_blank">Instagram</a>
+            <a href="https://x.com/home" target="_blank">Twitter</a>
+        </div>
+    </footer>
+    <div>
+    <p>&copy; 2024 My Simple Website</p>
+    <p>If you would like to get in touch, please reach out via email at <a href="mailto:samuelanyaneasare@gmail.com">samuelanyaneasare</a>.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
